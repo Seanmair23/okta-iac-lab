@@ -11,7 +11,7 @@ resource "okta_group" "finance" {
 
 resource "okta_group" "it_admins" {
   name        = "it-admins"
-  description = "IT administrators"
+  description = "IT administrators-boss"
 }
 
 # Test users
